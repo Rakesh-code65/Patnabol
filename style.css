@@ -5,8 +5,10 @@ body{
 }
 header{	
 	background-color: rgb(0, 0, 0);
-	color: white;
+	color: rgba(218, 205, 35, 0.945);
 }
+
+
 .website-header{
 	padding: 20px;
 	height: 80px;
@@ -22,6 +24,10 @@ header{
 .website-header h1{
 	margin: auto 0;
 }
+.website-header h1:hover{
+	color: #e08b6c;
+	cursor: pointer;
+}
 .social-icons{
 	text-align: right;
 	flex-grow: 1;
@@ -31,6 +37,7 @@ header{
 	cursor: pointer;
 }
 nav{
+	
 	background-color: rgb(0, 0, 0);
 	height: 50px;
 	margin-bottom: 20px;
@@ -39,12 +46,13 @@ nav ul{
 	margin: 20px 0 0 0;
 }
 .navbar-nav li{
+	
 	list-style: none;
 	display: inline-block;
 	padding: 10px 20px;
 }
 .navbar-nav li a{
-	color: #fff;
+	color: rgb(128, 8, 8);
 	text-decoration: none;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -253,11 +261,13 @@ p{
 	padding: 5px;
 	text-align: center;
 }
-@media only section and (max-width: 50px) 
-{
+@media only screen and (max-width: 760px) {
+
+	width: 100%;
+
 	.breaking-news-section{	
 		padding: 10px;
-		flex-wrap: wrap;
+		flex-wrap:wrap;
 	}
 	#featured{
 		flex: auto;
@@ -272,12 +282,12 @@ p{
 		margin-top: 20px;
 	}
 	.website-header img{
-		width: 35px;
+		width: 45px;
 		height: 35px;
-		padding: 5px;
+		padding: 3px;
 	}
 	.website-header h1{
-		font-size: 15px;
+		font-size: 25px;
 	}
 	.social-icons{
 		flex-basis: 100%;
@@ -304,6 +314,10 @@ p{
   font-size: 44px;
   text-align: center;
  }
-
+nav {
+	width: 20px;
+	height: 100px;
+	display;
+}
 
 }
